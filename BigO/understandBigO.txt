@@ -1,0 +1,44 @@
+
+There are types of BigO notations .
+
+o(1),O(logn),O(n),O(n logn),O(n^2),O(2^n),O(n!)
+
+how to calculate the BigO :
+
+always go for the worst case 
+remove all the constants 
+different terms for inputs
+drop non dominants
+
+which code is best ?
+Answer is readable ,Time complexity and memotry(space complexity)
+
+Most programming is like if you want to go faster then you have to sacrifice some memory ,As in todays world we have lots of lots memory ,So speed is always consider more
+
+Arrays , stacks, queues,LinkedLists,Trees,Tries,Graphs,HashTables   -Data strcutures
+
+Sorting,Dynamic programming,BFS,DFS,Recursion etc - Algorithms
+
+one example []
+
+
+//////////////////////////
+
+Things to remember when you start solving problems 
+
+what are the inputs and outputs for that problems
+if arrays then will it be sorted or not ??
+what is the main goal ...Is it time ,space or any other things ??
+start from very smallest approach and then tell the interview what will be the problem in this approach 
+then write all kind of test cases
+then ask the interview for if built in functions will be fine for use
+sometmes interviewer might ask about the space complexity issues ,What if the there will be billions of data and it will be out of space memory
+
+
+
+
+
+
+
+
+most of the time when there will be BigO(n^2) then there is high chance that you will have to use HashTables .
